@@ -1,0 +1,60 @@
+package doublyLinkedList;
+
+
+
+public class MethodClass {
+	static class Node {
+		private int data;
+		private Node next;
+		private Node prev;
+
+		public Node() {
+			this.data = 0;
+			next = null;
+			prev = null;
+		}
+
+		public Node(int value) {
+			data = value;
+			next = null;
+			prev = null;
+		}
+	}
+
+	private Node head;
+
+	public MethodClass() {
+		head = null;
+	}
+	
+	public boolean isEmpty() {
+		return head == null;
+	}
+	
+	public void addFirst(int value) {
+		Node newNode = new Node(value);
+		if(isEmpty()) {
+			head = newNode;
+		}
+		else {
+			newNode.next = head;
+			newNode.prev = head;
+			head.prev = newNode;
+			head.next = newNode;
+			head = newNode;
+			
+		}
+	}
+	
+	public void displayAll() {
+		if(isEmpty()) {
+			return;
+		}else {
+			Node trav = head;
+			while(trav.next != head.prev) {
+				System.out.print(trav.data + " ");
+				trav = trav.next;
+			}
+		}
+	}
+}
