@@ -30,15 +30,12 @@ public class MethodClass {
 	}
 
 	public void addFirst(int value) {
-//		System.out.println("Add First");
 		Node newNode = new Node(value);
 		if (isEmpty()) {
-//			System.out.println("add first if");
 			head = newNode;
 			newNode.next = newNode;
 			newNode.prev = newNode;
 		} else {
-//			System.out.println("add first else");
 			newNode.next = head;
 			newNode.prev = head.prev;
 			head.prev.next = newNode;
@@ -114,10 +111,6 @@ public class MethodClass {
 			return;
 		} else {
 			Node trav = head;
-//			while (trav.next != head.prev) {
-//				System.out.print(trav.data + " ");
-//				trav = trav.next;
-//			}
 			do {
 				System.out.print(trav.data + " ");
 				trav = trav.next;
