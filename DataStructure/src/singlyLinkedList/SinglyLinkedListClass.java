@@ -71,6 +71,20 @@ public class SinglyLinkedListClass {
 			addLast(value);
 		}
 	}
+	
+	//reverse a linked list
+	public void reverseLinkedList() {
+		Node curr = head;
+		Node prevNode = null;
+		Node nextNode = null;
+		while(curr != null) {
+			nextNode = curr.next;
+			curr.next = prevNode;
+			prevNode = curr;
+			curr = nextNode;
+		}
+		head = prevNode;
+	}
 
 	// display all list
 	public void displayAll() {
