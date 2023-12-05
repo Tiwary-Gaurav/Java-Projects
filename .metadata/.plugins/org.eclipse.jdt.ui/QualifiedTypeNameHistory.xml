@@ -5,7 +5,6 @@
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="dsa.SinglyLinkedListClass"/>
     <fullyQualifiedTypeName name="com.gaurav.IsPallindromeNumber"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="java.lang.SuppressWarnings"/>
     <fullyQualifiedTypeName name="java.security.cert.PKIXRevocationChecker"/>
@@ -26,4 +25,8 @@
     <fullyQualifiedTypeName name="java.lang.Long"/>
     <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
     <fullyQualifiedTypeName name="com.gaurav.SwapNumbers"/>
+    <fullyQualifiedTypeName name="com.stringRelatedProjects.StringToInteger"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.Iterable"/>
+    <fullyQualifiedTypeName name="javax.xml.transform.Templates"/>
 </qualifiedTypeNameHistroy>
