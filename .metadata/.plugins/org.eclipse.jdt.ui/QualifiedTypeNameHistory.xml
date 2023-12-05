@@ -5,7 +5,6 @@
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="dsa.SinglyLinkedListClass"/>
     <fullyQualifiedTypeName name="com.gaurav.IsPallindromeNumber"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="java.lang.SuppressWarnings"/>
@@ -18,7 +17,13 @@
     <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="com.stringRelatedProjects.UniqueSubStringWithoutRepeatingChars"/>
+    <fullyQualifiedTypeName name="singlyLinkedList.SinglyLinkedListClass.Node"/>
+    <fullyQualifiedTypeName name="com.gaurav.PrimeNumber"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="com.gaurav.PrimeNumberInRange"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="singlyLinkedList.SinglyLinkedListClass.Node"/>
+    <fullyQualifiedTypeName name="java.lang.Long"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="com.gaurav.SwapNumbers"/>
 </qualifiedTypeNameHistroy>

@@ -96,7 +96,7 @@ public class SinglyLinkedListClass {
 //		}
 		else {
 			while (trav != null) {
-				System.out.println(trav.data + " ");
+				System.out.print(trav.data + " ");
 				trav = trav.next;
 			}
 		}
